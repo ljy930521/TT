@@ -1,0 +1,26 @@
+dkdkdkdk
+
+카나ㅏ나나
+
+Tag <태그>내용</태그>
+
+&lt; br &gt;
+  <  br  > 
+&nbsp 스페이스바
+Twitter Bootstrap
+
+
+CSS Selector -> web cloning
+tag-nam
+h1
+p{ ...}
+
+class-name
+.class-name
+
+id-name
+#id-name
+
+다형성 polymorphism
+-overloading
+-overriding
