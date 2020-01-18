@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>문서 객체 복수 선택</title>
+        <meta charset="utf-8">
+        <script>
+            window.onload =function()
+            {
+                var headers = document.querySelectorAll('h1');
+                for (let header of headers)
+                {
+                    header.style.color = 'orange';
+                    header.style.backgroundColor = 'red';
+                    header.innerHTML = 'From Javascript!!!'
+                }
+             
+            }
+          </script>
+
+    </head>
+    <body>
+        <h1>Header - 1</h1>
+        <h1>Header - 2</h1>
+        <h1>Header - 3</h1>
+        
+    </body>    
+</html>

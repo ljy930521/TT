@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>스타일조작</title>
+        <meta charset="utf-8">
+        <script>
+        window.onload = function()
+        {
+            var output = '';
+            for (let i=0; i<256;i++)
+                {
+                    output += '<div></div>';
+                }
+                document.body.innerHTML =output;
+                
+                var divs = document.querySelectorAll('div');
+                divs.forEach(function(div,i)
+                {
+                    div.style.height = '2px';
+                    //div.style.backgroundColor =     `rgb(${i},${i},${i})    `;
+                    //black->white
+                    //div.style.backgroundColor =     `rgb(${i},${i*i%256},${(i+100)%256})    `;
+                    //여러색상
+                    r = Math.floor(Math.random()*256);
+                    g = Math.floor(Math.random()*256);
+                    b = Math.floor(Math.random()*256);
+                    div.style.backgroundColor =     `rgb(${r},${g},${b})    `;
+
+                })
+        }
+            
+          </script>
+
+    </head>
+    <body>
+        
+        
+    </body>    
+</html>
